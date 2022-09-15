@@ -21,5 +21,12 @@ if (a <= b)
 }
 else
 {
-    Console.WriteLine( a );
+     if (a <= c)
+    {
+        Console.WriteLine( c );
+    }
+    else
+    {
+        Console.WriteLine( a );
+    }
 }
